@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindCare - Mental Health Support</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>MindCare</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#articles">Articles & Resources</a></li>
+                    <li><a href="#self-assessment">Self-Assessment Tools</a></li>
+                    <li><a href="#support-groups">Support Groups</a></li>
+                    <li><a href="#therapists">Therapist Directory</a></li>
+                    <li><a href="#crisis-support">Crisis Support</a></li>
+                    <li><a href="#contact">Contact & Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to MindCare</h2>
+            <p>A supportive space for mental well-being</p>
+            <blockquote>
+                "You are not alone. Your mental health matters."
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="articles" class="bg-light">
+        <div class="container">
+            <h2>Articles & Resources</h2>
+            <!-- Article cards will be dynamically generated here -->
+        </div>
+    </section>
+
+    <section id="self-assessment">
+        <div class="container">
+            <h2>Self-Assessment Tools</h2>
+            <div id="assessment-form">
+                <label for="today-description">How was your day?</label>
+                <textarea id="today-description" placeholder="Describe your day"></textarea>
+
+                <label for="mood-level">On a scale of 1 to 10, how would you rate your mood?</label>
+                <input type="number" id="mood-level" min="1" max="10" placeholder="Enter your mood level">
+
+                <label for="write-about-it">Would you like to write about your feelings?</label>
+                <textarea id="write-about-it" placeholder="Write about your feelings"></textarea>
+
+                <button id="submit-assessment" class="button">Submit Assessment</button>
+            </div>
+            <div id="assessment-result" style="display: none;">
+                <!-- Assessment result will be dynamically shown here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="support-groups" class="bg-light">
+        <div class="container">
+            <h2>Support Groups</h2>
+            <div class="support-group">
+                <h3>Anxiety Support Group</h3>
+                <p>Connect with others experiencing anxiety and share coping strategies.</p>
+                <button class="button">Join Group</button>
+            </div>
+            <div class="support-group">
+                <h3>Depression Recovery Forum</h3>
+                <p>Join discussions about overcoming depression and supporting each other.</p>
+                <button class="button">Join Forum</button>
+            </div>
+            <!-- Add more support groups as needed -->
+        </div>
+    </section>
+
+    <section id="therapists">
+        <div class="container">
+            <h2>Therapist Directory</h2>
+            <div id="therapist-list">
+                <!-- Therapist profiles will be dynamically generated here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="crisis-support" class="bg-light">
+        <div class="container">
+            <h2>Crisis Support</h2>
+            <div class="crisis-info">
+                <h3>Emergency Hotlines</h3>
+                <ul>
+                    <li><strong>National Suicide Prevention Lifeline:</strong> 1-800-273-TALK (8255)</li>
+                    <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+                    <li><strong>National Domestic Violence Hotline:</strong> 1-800-799-SAFE (7233)</li>
+                    <!-- Add more emergency hotlines as needed -->
+                </ul>
+            </div>
+            <div class="crisis-info">
+                <h3>Crisis Intervention Services</h3>
+                <p>If you or someone you know is in immediate danger or needs urgent help, please contact emergency services (911) or visit the nearest emergency room.</p>
+            </div>
+            <!-- Add more crisis support information as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact & Feedback</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+            <div id="social-media">
+                <!-- Social media links will be provided here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MindCare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
